@@ -11,6 +11,9 @@ repository = "git@github.com:NEWROPE/tensorflow-probability-issue.git"
 python = ">=3.9,<3.11"
 tensorflow-probability = "^0.19.0"
 
+[tool.poetry.group.tf.dependencies]
+tensorflow = "^2.11.0"
+
 [tool.poetry.group.tf_apple_silicon]
 optional = true
 
